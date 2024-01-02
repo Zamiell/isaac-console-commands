@@ -1,0 +1,36 @@
+{
+  "name": "isaac-console-commands",
+  "version": "0.0.0",
+  "description": "A mod for The Binding of Isaac: Repentance.",
+  "keywords": [
+    "isaac",
+    "mod",
+    "rebirth",
+    "afterbirth",
+    "repentance"
+  ],
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "build": "tstl",
+    "lint": "tsx ./scripts/lint.ts",
+    "nuke": "isaacscript nuke",
+    "publish": "isaacscript publish",
+    "start": "isaacscript monitor",
+    "update": "isaacscript update"
+  },
+  "dependencies": {
+    "isaac-typescript-definitions": "^40.0.4",
+    "isaacscript-common": "^85.0.2"
+  },
+  "devDependencies": {
+    "isaacscript": "^3.37.0",
+    "isaacscript-common-node": "^3.0.0",
+    "isaacscript-lint": "^6.14.0",
+    "isaacscript-spell": "^1.13.0",
+    "isaacscript-tsconfig": "^5.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "typescript-to-lua": "^1.23.0"
+  }
+}
